@@ -1,0 +1,17 @@
+{
+  "name": "cors-anywhere",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "deploy": "vercel",
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "hono": "^4.5.3",
+    "vercel": "^35.2.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "@types/node": "^16.7.10"
+  }
+}
